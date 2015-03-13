@@ -7,6 +7,8 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
+<!-- TemplateParam name="the doctors menu" type="boolean" value="false" -->
+<!-- TemplateParam name="the-companions" type="boolean" value="false" -->
 </head>
 
 <body>
@@ -23,7 +25,34 @@
 </table>
 <table width="1000">
   <tr>
-    <td>[Secondary Navigation]</td>
+    <td><ul>
+      <!-- TemplateBeginIf cond="_document['the doctors menu']" -->
+        <li><a href="../the-doctors/index.html">The Doctors</a></li>
+        <li><a href="../the-doctors/the-first-doctor.html">The First Doctor</a></li>
+        <li><a href="../the-doctors/the-second-doctor.html">The Second Doctor</a></li>
+        <li><a href="../the-doctors/the-third-doctor.html">The Third Doctor</a></li>
+        <li><a href="../the-doctors/the-fourth-doctor.html">The Fourth Doctor</a></li>
+        <li><a href="../the-doctors/the-fifth-doctor.html">The Fifth Doctor</a></li>
+        <li>The Sixth Doctor</li>
+        <li>The Seventh Doctor </li>
+        <li>The Eight Doctor</li>
+        <li>The War Doctor</li>
+        <li>The Ninth Doctor</li>
+        <li>The Tenth Doctor</li>
+        <li>The Eleventh Doctor</li>
+        <li>The Twelth Doctor </li>
+        <!-- TemplateEndIf -->
+    </ul>
+      <ul>
+        <!-- TemplateBeginIf cond="_document['the-companions']" -->
+          <li><a href="../the-companions/jack-harkness.html">Jack Harkness </a></li>
+          <li><a href="../the-companions/ace.html">Ace</a></li>
+          <li><a href="../the-companions/adam-mitchell.html">Adam Mitchell</a></li>
+          <li><a href="../the-companions/rose-tyler.html">Rose Tyler</a></li>
+          <li><a href="../the-companions/donna-noble.html">Donna Noble</a></li>
+        <!-- TemplateEndIf -->
+      </ul>
+<p>&nbsp;</p></td>
     <td><!-- TemplateBeginEditable name="master-content" -->[Content Goes Here]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
