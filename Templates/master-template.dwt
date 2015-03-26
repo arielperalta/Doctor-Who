@@ -9,6 +9,7 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateParam name="the doctors menu" type="boolean" value="false" -->
 <!-- TemplateParam name="the-companions" type="boolean" value="false" -->
+<!-- TemplateParam name="If the-companions" type="boolean" value="false" -->
 </head>
 
 <body>
@@ -54,9 +55,25 @@
           <li><a href="../the-companions/Zoe Heriot.html">Zoe Heriot</a></li>
           <li><a href="../the-companions/Mike Yates.html">Mike Yates</a></li>
           <li><a href="../the-companions/K-9.html">K-9</a></li>
-          <li><a href="../the-companions/Clara-Oswald.html">Clara Oswald</a></li>
+          <li><a href="../the-companions/Clara-Oswald.html">Clara Oswald</a> </li>
         <!-- TemplateEndIf -->
-    </ul></td>
+      </ul>
+      <ul>
+      <!-- TemplateBeginIf cond="_document['If the-companions']" -->
+      
+        <li><a href="../the-villains/the-daleks.html">The Daleks</a></li>
+        <li><a href="../the-villains/sensorities.html">Sensorities</a></li>
+        <li><a href="../the-villains/monk.html">Monk</a></li>
+        <li><a href="../the-villains/war-machines.html">War Machines</a></li>
+        <li><a href="../the-villains/cybermen.html">Cybermen</a></li>
+        <li><a href="../the-villains/ice-warriors.html">Ice Warriors</a></li>
+        <li><a href="../the-villains/the-great-intellignece.html">The Great Intelligence</a></li>
+        <li><a href="../the-villains/silurians.html">Silurians</a></li>
+        <li><a href="../the-villains/the-master.html">The Master</a></li>
+        <li><a href="../the-villains/the-autons.html">The Autons</a></li>
+      <!-- TemplateEndIf -->
+      </ul>
+      </td>
     <td width="451"><!-- TemplateBeginEditable name="master-content" -->[Content Goes Here]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
