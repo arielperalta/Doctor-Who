@@ -28,7 +28,6 @@
   <tr>
     <td width="537"><ul>
       <!-- TemplateBeginIf cond="_document['the doctors menu']" -->
-        <li><a href="../the-doctors/index.html">The Doctors</a></li>
         <li><a href="../the-doctors/the-first-doctor.html">The First Doctor</a></li>
         <li><a href="../the-doctors/the-second-doctor.html">The Second Doctor</a></li>
         <li><a href="../the-doctors/the-third-doctor.html">The Third Doctor</a></li>
@@ -46,7 +45,7 @@
     </ul>
       <ul>
         <!-- TemplateBeginIf cond="_document['the-companions']" -->
-          <li><a href="../the-companions/jack-harkness.html">Jack Harkness </a></li>
+        <li><a href="../the-companions/jack-harkness.html">Jack Harkness </a></li>
           <li><a href="../the-companions/ace.html">Ace</a></li>
           <li><a href="../the-companions/adam-mitchell.html">Adam Mitchell</a></li>
           <li><a href="../the-companions/rose-tyler.html">Rose Tyler</a></li>
