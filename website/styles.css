@@ -6,6 +6,9 @@ body {
 	line-height: 2.5em;
 	color: #333;
 }
+body {
+	background-color: #000;
+}
 .insertimage {
 	float: left;
 	border: 10px solid #FFF;
