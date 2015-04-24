@@ -33,16 +33,20 @@ td {
 .home-nav {
 	background-color: #FF3;
 	width: 25%;
+	text-align: center;
 }
 .doctors-nav {
 	background-color: #CCF;
 	width: 25%;
+	text-align: center;
 }
 .companions-nav {
 	width: 25%;
 	background-color: #6FC;
+	text-align: center;
 }
 .villains-nav {
 	background-color: #3CF;
 	width: 25%;
+	text-align: center;
 }
